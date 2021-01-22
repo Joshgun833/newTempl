@@ -1,0 +1,55 @@
+menu{
+    padding: 0;
+    background-color: #12407E;
+   
+}
+ #row div{
+    padding: 0;
+    /* width: 30%; */
+    
+}
+menu .container-fluid{
+    width: 98%;
+    height: 100%;
+    /* background-color: #12407E; */
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.bar{
+    margin: 8% 0 0 5%;
+   /* background-color: #12407E; */
+
+    
+}
+
+.container-fluid div .bar div{
+    
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    
+    transition: 0.4s;margin: 2%;
+
+    
+    
+}
+
+.sec1:hover{
+    background-color: #B2162C;
+}
+.sec1 span{
+    text-align: left;
+font: normal normal 300 16px/20px Lato;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.container-fluid div div div img{
+    
+    width: 66px;
+    padding: 0px;
+    margin-left: 5%;
+    
+    
+}

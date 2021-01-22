@@ -1,0 +1,48 @@
+footer div div img{
+    width: 98%;
+    /* position: absolute;
+    left: 0; */
+    
+}
+footer{
+    width: 95%;
+    margin: auto;
+}
+footer div div h1{
+    text-transform: capitalize;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 30px;
+    margin:20px 0;
+   
+}
+footer div div h1 a,p a{
+    color:#000;
+    
+}
+footer div div p{
+    font-family: 'Lato';
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    margin:0;
+  
+font: normal normal normal 16px/29px Lato;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+footer div div a img{
+    width: 18%;
+   
+}
+footer div{
+    margin-top: 3%;
+}
+footer div div{
+
+}

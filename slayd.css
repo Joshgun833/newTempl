@@ -1,0 +1,255 @@
+.slayd{
+    width: 98%;
+    min-height: 100%;
+    background: transparent url('image/bg-animation.png') 0% 0% no-repeat padding-box;
+border: 1px solid #FFFFFF;
+border-radius: 8px;
+opacity: 1;
+background-color: #113d77;
+background-size: 100%;
+margin: 0 auto;
+
+
+}
+.head{
+    margin-top: 5%;
+}
+.head h1{
+    text-align: center;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1;
+    color: inherit;
+color: #FFFFFF;
+opacity: 1;
+}
+.head p{
+    color: #fff;
+    font-weight: 300;
+    font-family: Lato;
+    text-align: center;
+    font-size: 20px;
+    opacity: 1;
+
+}
+.menu_slayd{
+    margin-top: 5%;
+font: normal normal 300 24px/29px Lato;
+letter-spacing: 0px;
+opacity: 1;
+list-style: none;
+text-align: center;
+padding: 0;
+background: 0 0;
+color: #fff;
+padding: 8px 15px 9px;
+cursor: pointer;
+border-radius: 6px;
+transition: all .5s ease 0s;
+/* font-size: 18px; */
+}
+.menu_slayd li{
+    margin: 0 5px;
+    display: inline-block;
+    padding: 5px;
+}
+.menu_slayd li:hover{
+    background-color: #B2162C;
+    border-radius: 8px;
+}
+.product{
+    width: 20%;
+    min-width: 178px;
+    /* height: 400px; */
+margin: auto;  
+margin: 0 0%;  text-align: center;
+    background: transparent url('img/Bild 48.png') 0% 0% no-repeat padding-box;
+box-shadow: 2px 10px 30px #000000b9;
+border-radius: 8px;
+display: inline-block;
+}
+.product img{
+    margin: 5%;
+}
+.product h1{
+    text-align: center;
+    font: normal normal 300 24px/29px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 30px #00000029;
+    opacity: 1;
+}
+.product p{
+    margin: auto;
+    
+
+font: normal normal 300 18px/22px Lato;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-shadow: 0px 3px 30px #00000029;
+opacity: 1;
+    font-weight: 300;
+    line-height: 26px;
+    border-radius: 8px;
+    width: 80%;
+    height: 30px;
+    background-color: #B2162C;
+}
+
+
+
+
+
+#slidler{
+    position: relative;
+    min-height: 320px;   
+    padding: 0px;
+    margin: auto;
+    list-style-type: none;
+    width: 100%;
+    background: transparent;
+    text-align: center;
+    /* box-shadow: 5px 5px 20px red; */
+   
+}
+ 
+.slide {
+    padding: 0;
+    /* position: relative;
+    left: 0px;
+    top: 0px; */
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 99;
+    margin: auto;
+    background-size: auto;
+    display: none;
+   
+   
+
+    
+}
+ 
+.showing {
+    opacity: 1;
+    z-index: 99;
+    display: block;
+    transform: auto;
+    transition: 1s;
+    /* box-sizing: border-box; */
+    margin: auto;
+    display: block;
+    
+    
+    
+}
+.slide {
+    font-size: 40px;
+    /* padding: 40px; */
+    box-sizing: border-box;
+    z-index: 0;
+    /* width: 80%; */
+  
+
+    
+    color: #fff;
+}
+ 
+/* .slide:nth-of-type(1) {
+    background-image: url(image/photo1.jfif);
+}
+.slide:nth-of-type(2) {
+    background-image: url(image/photo2.jfif);
+}
+.slide:nth-of-type(3) {
+    background-image: url(image/photo3.jfif);
+}
+.slide:nth-of-type(4) {
+    background-image: url(image/photo4.jfif);
+}
+.slide:nth-of-type(5) {
+    background-image: url(image/photo5.jfif);
+}
+.slide:nth-of-type(6) {
+    background-image: url(image/photo6.jfif);
+} */
+.left{
+    width: 60px;
+    height: 80px;
+    z-index: 100;
+    background-color:transparent;
+    opacity: 0.5;
+    /* bottom: 300px; */
+    transition: 1s;
+    border: none;
+    outline: none !important;
+    float: left;
+}
+.left i{
+    float: right;
+   color: white;
+}
+.left p{
+opacity: 1;
+
+}
+
+.right{
+    width: 60px;
+    height: 80px;
+    z-index: 100;
+    background-color: transparent;
+    float: right;
+    transition: 1s;
+    opacity: 0.5;
+    border: none;
+    outline: none !important;
+   
+    
+}
+.right i{
+    color: white;
+
+    float: left;
+}
+.left:hover{
+width: 120px;
+opacity: 1;
+background-color: #00000029;
+}
+.right:hover{
+    width: 100px;
+    background-color:#00000029;
+    opacity: 1;
+    }
+
+.controller{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    margin: auto;
+    top: 30%;
+   
+}
+.slideNumber{
+    width: 60%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.slideNumber button{
+    border-radius: 50%;
+    margin: 0 2px;
+    padding: 0;
+    width: 15px;
+    height: 15px;        
+    border: 1px solid #fff;   
+    background-color: transparent;
+    outline: none !important ;
+}
+.slideNumber button:hover{
+background-color: #fff;
+transition: 0.3s;
+}
+
